@@ -4,7 +4,7 @@
 enum class Tile;
 
 // Structure for two ints that represent to x and y coordinate points of a tile
-struct Pos;
+struct Position;
 
 // Structure for a direction used in the legal move and board flipping algorithms
 struct Direction;

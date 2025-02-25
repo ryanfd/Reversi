@@ -7,7 +7,7 @@ enum class Tile {
     legal
 };
 
-struct Pos {
+struct Position {
     int x;
     int y;
 };
@@ -19,7 +19,7 @@ struct Direction {
 
 struct DirToPos {
     Direction d;
-    Pos loc;
+    Position loc;
 };
 
 const std::vector<Direction> DIRS = {

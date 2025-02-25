@@ -1,13 +1,10 @@
-#include <HeaderFiles/tile.h>
+#include "tile.h"
 
-// class Board {
-// public:
-    // Board(int width, int height);
+class Board {
+    Board(int width, int height);
 
-    class Board;
-
-    // int getWidth() const;
-    // int getHeight() const;
+    int getWidth() const;
+    int getHeight() const;
 
     bool isOnBoard(Position position);
     void flipPieces(Position position, const Tile& tile);
@@ -29,5 +26,5 @@
 
     bool canGameContinue();
 
-    // ~Board();
-// };
+    ~Board();
+};

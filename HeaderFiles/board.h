@@ -1,10 +1,11 @@
-#include "tile.h"
+#include "Tile.h"
 
 class Board {
+public:
     Board(int width, int height);
 
-    int getWidth() const;
     int getHeight() const;
+    int getWidth() const;
 
     bool isOnBoard(Position position);
     void flipPieces(Position position, const Tile& tile);

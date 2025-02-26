@@ -2,10 +2,10 @@
 
 // Types of Tiles
 enum Tile {
-    white,
-    black,
-    empty,
-    legal
+    White,
+    Black,
+    Empty,
+    Legal
 };
 
 // Structure for two ints that represent to x and y coordinate points of a tile

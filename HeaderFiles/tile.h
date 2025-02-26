@@ -1,7 +1,7 @@
 #include <vector>
 
-// Enumerated class for the types of Tiles
-enum class Tile {
+// Types of Tiles
+enum Tile {
     white,
     black,
     empty,

@@ -1,6 +1,11 @@
 #include "Tile.h"
 
 class Board {
+private:
+    std::vector<std::vector<Tile>> m_board;
+    int m_height;
+    int m_width;
+
 public:
     Board(int width, int height);
 
